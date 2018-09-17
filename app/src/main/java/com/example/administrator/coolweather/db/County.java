@@ -1,9 +1,11 @@
 package com.example.administrator.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * 县
  * */
-public class Count {
+public class County extends DataSupport{
     private  int id;
     private  String countyName;
     private  String weatherId;//天气id
